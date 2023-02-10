@@ -136,6 +136,7 @@ function Save() {
 // }
 
 function login() {
+  Save();
   var email = document.getElementById("email").value;
   var password = document.getElementById("password").value;
   if (email != "" && password != "") {
